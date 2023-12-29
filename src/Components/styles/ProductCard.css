@@ -1,0 +1,86 @@
+/* ProductCard.css */
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    width: 200px; /* Set the width of each product card as needed */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s;
+    margin: 5px; /* Adjust the margin for spacing between cards (smaller gap) */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin: 8px 0;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff5722; /* Adjust the color as needed */
+  }
+  
+  button {
+    background-color: #ff5722; /* Adjust the color as needed */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #e64a19; /* Adjust the color as needed */
+  }
+  
+  /* Add any other custom styling as desired */
+  
+  /* Display cards side by side in a grid with a smaller gap */
+  .product-grid {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust for desired spacing */
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+     flex-direction: column;
+     position: relative; 
+    top: -505px;
+    left: 220px;
+}
+
+.product-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

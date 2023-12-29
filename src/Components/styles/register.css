@@ -1,0 +1,68 @@
+/* Register.css */
+.register-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-container form {
+    text-align: left;
+}
+
+.register-container label {
+    display: inline;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container input[type="date"],
+.register-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    position: relative;
+    right: 10px;
+}
+
+.register-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+.register-container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+    .register-container {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
